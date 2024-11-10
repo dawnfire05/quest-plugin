@@ -1,0 +1,4 @@
+name: quest
+version: '1.0-SNAPSHOT'
+main: org.quest.quest.Quest
+api-version: '1.21'
