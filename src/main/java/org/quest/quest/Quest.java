@@ -7,7 +7,9 @@ public final class Quest extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("Quest Plugin has been enabled!");
-        getCommand("quest").setExecutor(new QuestCommand());
+        QuestManager questManager = new QuestManager();
+        getCommand("quest").setExecutor(new QuestCommand(questManager));
+        getServer().getPluginManager().registerEvents(new QuestListener(questManager), this);
     }
 
     @Override
