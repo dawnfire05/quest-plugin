@@ -1,0 +1,8 @@
+name: quest
+version: '1.0-SNAPSHOT'
+main: org.quest.quest.Quest
+api-version: '1.21'
+commands:
+  quest:
+    description: Quest management command
+    usage: /quest
