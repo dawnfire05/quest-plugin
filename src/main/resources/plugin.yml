@@ -1,7 +1,7 @@
 name: quest
 version: '1.0-SNAPSHOT'
 main: org.quest.quest.Quest
-api-version: '1.21'
+api-version: '1.21.1'
 commands:
   quest:
     description: Quest management command
